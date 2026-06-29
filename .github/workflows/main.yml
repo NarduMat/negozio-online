@@ -77,7 +77,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           java-version: '21'
-          distributio: 'temurin'
+          distribution: 'temurin'
       - uses: actions/cache@v4
         with:
           path: ~/.m2/repository
